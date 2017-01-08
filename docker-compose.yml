@@ -1,0 +1,10 @@
+version: "2"
+services:
+  aurelia:
+    image: "azforeversupporter/aurelia-cli"
+    container_name: "aurelia"
+    command: "au run --watch"
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./app:/app
