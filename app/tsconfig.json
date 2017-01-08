@@ -1,6 +1,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "importHelpers": true,
+    "noEmitHelpers": true,
     "sourceMap": true,
     "target": "es5",
     "module": "amd",
