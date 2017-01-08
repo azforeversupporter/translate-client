@@ -1,7 +1,7 @@
 version: "2"
 services:
   aurelia:
-    image: "azforeversupporter/aurelia-cli"
+    build: .
     container_name: "aurelia"
     command: "au run --watch"
     ports:
